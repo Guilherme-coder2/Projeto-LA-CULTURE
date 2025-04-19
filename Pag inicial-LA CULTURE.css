@@ -1,0 +1,88 @@
+body {
+  font-family: 'Roboto', Arial, sans-serif; 
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #000428, #004e92);
+  color: #e0e0e0; 
+}
+
+header {
+  background: linear-gradient(90deg, #ffffff, #e4effa); 
+  font-family: 'Orbitron', sans-serif;
+  color: #3daee9;
+  padding: 40px;
+  text-align: center;
+  letter-spacing: 2px; /* Espaçamento para estilo */
+  text-transform: uppercase; /* Letras maiúsculas */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+  background: #2c3e50;
+  padding: 15px 0;
+  text-align: center;
+  border-bottom: 2px solid #3daee9; 
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s ease; /* Animação de hover */
+}
+
+nav a:hover {
+  color: #3daee9; /* Efeito dinâmico */
+}
+
+.banner {
+  background-image: url(img/vi.jpg); /* imagem de fundo */
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 60px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  animation: fade-in 2s ease; /* Animação */
+  color: black; /* Texto destacado */
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+  background: #1e272e;
+}
+
+.service {
+  text-align: center;
+  max-width: 300px;
+  padding: 20px;
+  background: #34495e;
+  color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Efeito de profundidade */
+  transition: transform 0.3s ease; /* Interatividade */
+}
+
+.service:hover {
+  transform: scale(1.05); /* Efeito de zoom */
+}
+
+footer {
+  background: #1e272e;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  border-top: 2px solid #3daee9;
+}

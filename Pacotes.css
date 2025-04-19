@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom, #1b2735, #090a0f);
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #00ffc6;
+    text-shadow: 0 0 10px #00ffc6;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #bbb;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin: 20px auto;
+    max-width: 1000px;
+}
+
+.destino {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 255, 198, 0.4);
+    margin: 15px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.destino img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.destino:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 25px rgba(0, 255, 198, 0.6);
+}
+
+.destino:hover img {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.destino h2 {
+    font-size: 1.5em;
+    color: #00ffc6;
+    margin: 10px 0;
+    text-shadow: 0 0 5px #00ffc6;
+}
+
+.destino p {
+    font-size: 1em;
+    color: #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.5);
+    color: #bbb;
+    font-size: 0.9em;
+    margin-top: 20px;
+    width: 100%;
+}
