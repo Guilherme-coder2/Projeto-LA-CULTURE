@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Conversor de Moedas</title>
+  <link rel="stylesheet" href="moedas.css">
+  <script src="moedas.js"></script>
+</head>
+<body>
+  <h1>Conversor de Moedas</h1>
+  <label for="valor">Valor em BRL:</label>
+  <input type="number" id="valor" placeholder="Ex: 100"><br><br>
+
+  <label for="moeda">Converter para:</label>
+  <select id="moeda">
+    <option value="USD">Dólar (USD)</option>
+    <option value="EUR">Euro (EUR)</option>
+    <option value="GBP">Libra (GBP)</option>
+  </select><br><br>
+
+  <button onclick="converterMoeda()">Converter</button>
+
+  <h2 id="resultado"></h2>
+
+  <script src="moedas.js"></script>
+</body>
+</html>

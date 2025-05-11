@@ -1,0 +1,21 @@
+body {
+    background-color: #272626;
+    font-family: Arial, sans-serif;
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 40%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 2em;
+    text-align: center;
+}
