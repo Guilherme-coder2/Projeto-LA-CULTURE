@@ -3,4 +3,7 @@ Versão 1.0
 
 versão 1.1
     Fazendo a API 
-    Conversão de moedas 
+    Conversão de moedas.
+
+Versão 1.2
+    subindo a página de contatos.
