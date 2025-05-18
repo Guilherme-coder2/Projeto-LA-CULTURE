@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(90deg, #0f0f0f, #1a1a1a);
+    color: #00ffe7;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 50px;
+}
+
+h1.glitch {
+    font-size: 60px;
+    text-transform: uppercase;
+    animation: glitch 1.5s infinite;
+}
+
+@keyframes glitch {
+    0% { text-shadow: 2px 2px red; }
+    25% { text-shadow: -2px 2px blue; }
+    50% { text-shadow: 2px -2px green; }
+    75% { text-shadow: -2px -2px yellow; }
+    100% { text-shadow: 2px 2px red; }
+}
+
+.highlight {
+    font-size: 20px;
+    opacity: 0;
+    animation: fadeIn 1.5s forwards ease-in-out;
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.cta-button {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #00ffe7;
+    color: #0f0f0f;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #ff00ff;
+    color: #fff;
+    transform: scale(1.1);
+}
+body { 
+    background: url('') no-repeat center center fixed; /* se quiser colocar uma de fundo nessa página, só colocar no ()*/
+    background-size: cover;
+    color: #00ffe7;
+    font-family: "Orbitron", sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
