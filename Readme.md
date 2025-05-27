@@ -9,4 +9,7 @@ Versão 1.2
     subindo a página de contatos.
 
 Versão 1.3
-    Organizando toas as página do projeto.
+    Organizando todas as página do projeto.
+
+versão 1.4 
+    Corrigindo alguns coisas.
