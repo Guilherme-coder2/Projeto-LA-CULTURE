@@ -6,10 +6,8 @@ versão 1.1
     Conversão de moedas.
 
 Versão 1.2
-    subindo a página de contatos.
+    subindo as páginas de contatos.
 
 Versão 1.3
-    Organizando todas as página do projeto.
+    Organizando todas as páginas do projeto.
 
-versão 1.4 
-    Corrigindo alguns coisas.
