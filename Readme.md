@@ -11,3 +11,6 @@ Versão 1.2
 Versão 1.3
     Organizando todas as páginas do projeto.
 
+Verão 1.4
+    troquei o e-mail.
+
